@@ -1,8 +1,9 @@
-## Chatbot using Falcon-7B LLM
-This repository contains code to create a chatbot using Falcon-7B LLM (Language Model) and deploy it with a Gradio interface for easy interaction. Falcon-7B is an open-source Language Model that can generate text based on input prompts.
+## Chatbot using TII Falcon-7B-instruct LLM
+
+This repository contains code to create a chatbot using `Falcon-7B-instruct` LLM (Language Model) and deploy it with a Gradio interface for easy interaction. Falcon-7B is an open-source Language Model that can generate text based on input prompts (link: https://huggingface.co/tiiuae/falcon-7b-instruct )
 
 ### Installation ⚙️
-Before running the chatbot, you need to install the necessary dependencies. The following instructions are for Python:
+Before running the chatbot, you need to install the necessary dependencies.
 
 Install the required packages using pip:
 * pip install -q -U bitsandbytes
@@ -14,17 +15,18 @@ Install the required packages using pip:
 * pip install xformers
 * pip install langchain
 * pip install gradio
- 
-Here we install the necessary libraries to work with the `Falcon-7B LLM`, along with Gradio for building the user interface.
+
+Here we install the necessary libraries to work with the `Falcon-7B LLM` and Gradio for building the user interface.
 The Falcon-7B model and tokenizer is loaded with `4-bit quantization`, making it efficient for low RAM environments by using NF4 dtype stands for Normal Float 4 which is introduced in the QLoRA paper: https://huggingface.co/blog/4bit-transformers-bitsandbytes
 
 
 ### Usage 🪄
 To use the Falcon-7B LLM chatbot:
 * Install the required dependencies as mentioned above.
-* Run the code provided in the main script or Jupyter notebook.
+* Run the code provided in the Jupyter Notebook.
 * The Gradio interface will open in your default web browser.
 * Enter a text prompt in the provided input box and press Enter to get the chatbot's response.
-* Please note that the Falcon-7B LLM might take some time to respond, depending on the complexity of the prompt and the model's size.
+
+![image](https://github.com/Navin964/Falcon-7B/assets/73225962/219465d0-0d6f-45d2-805c-3bd67e6e156f)
 
 Enjoy chatting with your Falcon-7B LLM-powered chatbot! 😉
