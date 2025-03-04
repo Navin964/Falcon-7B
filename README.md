@@ -16,8 +16,8 @@ Install the required packages using pip:
 * pip install langchain
 * pip install gradio
 
-Here we install the necessary libraries to work with the `Falcon-7B LLM` and Gradio for building the user interface.
-The Falcon-7B model and tokenizer is loaded with `4-bit quantization`, making it efficient for low RAM environments by using NF4 dtype stands for Normal Float 4 which is introduced in the QLoRA paper: https://huggingface.co/blog/4bit-transformers-bitsandbytes
+Here, we install the necessary libraries to work with the `Falcon-7B LLM` and Gradio to build the user interface.
+The Falcon-7B model and tokenizer is loaded with `4-bit quantization`, making it efficient for low RAM environments by using NF4 dtype, which stands for Normal Float 4, which is introduced in the QLoRA paper: https://huggingface.co/blog/4bit-transformers-bitsandbytes
 
 
 ### Usage 🪄
